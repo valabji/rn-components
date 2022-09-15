@@ -1,8 +1,8 @@
 {
   "name": "@valabji/rn-components",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "React native components",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/valabji/rn-components/issues"
   },
-  "homepage": "https://github.com/valabji/rn-components#readme"
+  "homepage": "https://github.com/valabji/rn-components#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
+    "react": "18.0.0",
+    "react-native": "0.69.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react-native": "^0.70.0"
+  }
 }
