@@ -1,6 +1,6 @@
 {
   "name": "@valabji/rn-components",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "React native components",
   "main": "index.tsx",
   "scripts": {
