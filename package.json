@@ -5,8 +5,7 @@
   "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "next": "git add . && git commit -m \"$(node -e 'var pjson = require(\"./package.json\");console.log(\"npm to \"+pjson.version+\"+1\")')\" && npm version patch && npm publish --access public",
-    "jk": ""
+    "npm": "npm.sh"
   },
   "repository": {
     "type": "git",
