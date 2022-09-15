@@ -9,8 +9,8 @@ export default function LoadingButton(props) {
     onClick = async () => {},
     text,
     isLoading = false,
-    backgroundColor = Colors.DBlue,
-    textColor = Colors.WHITE,
+    backgroundColor = Colors["DBlue"],
+    textColor = Colors["WHITE"],
   } = props
   const [loading, setLoading] = useState(isLoading)
   return (

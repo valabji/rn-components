@@ -18,27 +18,20 @@ const Style = StyleSheet.create({
     paddingTop:0,
   },
   input: {
-    borderColor: Colors.BLACK,
+    borderColor: Colors["BLACK"],
     borderWidth: StyleSheet.hairlineWidth,
     borderRadius: 12,
     padding: 10,
-    color: Colors.BLACK,
+    color: Colors["BLACK"],
     fontSize: SIZES.FONT,
     paddingVertical: SIZES.PADDING * 0.5,
   },
   inputContainer: {
     marginBottom: SIZES.PADDING * 1,
   },
-  signin: {
-    backgroundColor: Colors.BGreen,
-    borderRadius: 5,
-    height: 60,
-    justifyContent: 'center',
-    textAlign: 'center',
-  },
 
   facebookbtn: {
-    // backgroundColor: Colors.WHITE,
+    // backgroundColor: Colors["WHITE"],
     // width: 150,
     // padding: 20,
     borderRadius: 5,
@@ -49,7 +42,7 @@ const Style = StyleSheet.create({
   },
 
   facebooklabel: {
-    color: Colors.BLACK,
+    color: Colors["BLACK"],
     fontSize: 22,
     fontWeight: '600',
     letterSpacing: 0.5,
@@ -57,21 +50,21 @@ const Style = StyleSheet.create({
   },
   signinLabel: {
     fontFamily: t('regular'),
-    color: Colors.WHITE,
+    color: Colors["WHITE"],
     fontSize: 22,
     fontWeight: '600',
     letterSpacing: 0.5,
     textAlign: 'center',
   },
   title: {
-    color: Colors.BLACK,
+    color: Colors["BLACK"],
     fontSize: SIZES.TITLE,
     fontWeight: '600',
     letterSpacing: 1,
     marginBottom: SIZES.BASE,
   },
   title2: {
-    color: Colors.WHITE,
+    color: Colors["WHITE"],
     fontSize: 32,
     width: '100%',
     textAlign: 'center',
@@ -87,7 +80,7 @@ const Style = StyleSheet.create({
   navItem:{
     height: 64,
     marginTop: 5,
-    backgroundColor: Colors.DBlue,
+    backgroundColor: Colors["DBlue"],
     flexDirection: t('row'),
   },
   homeCard:{
@@ -102,7 +95,7 @@ const Style = StyleSheet.create({
     alignItems: 'center',
   },
   homeCardText:{ fontSize: 14,marginTop:16, fontFamily: t('bold') },
-  NotesItem:{width:"100%", fontFamily: t('regular'),minHeight:62,marginTop:10,padding:10,borderRadius:6,backgroundColor:Colors.WHITE}
+  NotesItem:{width:"100%", fontFamily: t('regular'),minHeight:62,marginTop:10,padding:10,borderRadius:6,backgroundColor:Colors["WHITE"]}
 })
 
 export default Style
